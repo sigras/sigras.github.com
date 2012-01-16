@@ -1,0 +1,229 @@
+/********* DEFAULTS *********/
+body {
+    /* font-family: Georgia, "Times New Roman", Helvetica, Tahoma; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #666;
+    height: 100%;
+}
+html {
+    border-top: 6px solid #111;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #999;
+}
+
+h1 {
+    font-size: 35px;
+    color: #414141;
+}
+
+h2 {
+    font-size: 20px;
+    color: #414141;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px dotted #CFCFCF;
+    padding-bottom: 15px;
+}
+.normal {
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+    margin-top: 10px;
+}
+/********* WRAPPER *********/
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+    position: relative;
+}
+/********* HEADER *********/
+.header {
+    margin-top: 20px;
+    height: 50px;
+
+}
+.header .logo {
+    margin-top: 2px;
+    margin-right: 35px;
+    float:left;
+
+}
+
+.header .nav {
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+.header .nav ul {
+    list-style-type: none;
+
+}
+.header .nav li {
+    display: inline;
+    padding: 18px;
+}
+.header .nav li a {
+    color: #CFCFCF;
+}
+
+.header .nav li a:hover {
+    color: #000;
+}
+
+.header .search {
+    float:left;
+}
+
+.header .search form {
+    margin-left: 20px;
+}
+
+.header .search input {
+    border: 1px solid #CFCFCF;
+    width: 340px;
+    height: 30px;
+    padding: 10px;
+    background: url('../images/search_icon.png') no-repeat;
+    background-position: 2px 0px;
+    padding-left: 30px;
+}
+/********* CONTENT *********/
+.content {
+    margin-top: 10px;
+
+}
+
+/********** BLOGPOST RELATED **********/
+
+.post {
+    margin-top: 35px;
+    line-height: 19px;
+
+}
+
+.post .date, .date {
+    font-size: 11px;
+
+    color: #BBB;
+    
+}
+
+.post .title a, .title a, .title{
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    color: #d33432; /* red color is either title or tag */
+    color: #333; /* gray-ish */
+
+}
+
+.post .title a:hover, .title a:hover {
+    text-decoration: underline;
+}
+
+.post .description {
+    color: #333;
+    width: 450px;
+    
+}
+
+.post .tags a, a.source {
+    color: #d33432;
+    font-size: 11px;
+    font-weight: normal;
+
+}
+
+.post .tags a:hover, a.source:hover {
+    text-decoration: underline;
+}
+
+/********* ARTICLE ********/
+.text {
+    margin-top: 15px;
+    color: #333;
+    width: 500px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.article-tags {
+    margin-top: 15px
+}
+
+.article-tags a {
+    color: #d33432;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.article-tags a:hover {
+    text-decoration: underline;
+}
+/********** PROJECTS *********/
+.project {
+    margin-top: 35px;
+}
+.project .title {
+    height: 32px;
+}
+.project .title a {
+    float:left;
+}
+.project p.source {
+    float:left;
+    margin-left: 7px;
+    margin-top: 2px;
+    color: #d33432;
+}
+p.source {
+    color: #bebebe;
+    font-size: 11px;
+    font-weight: normal;
+
+}
+.project img {
+    border: 1px solid #bebebe;
+}
+.project .description {
+    margin-top: 5px;
+    width: 200px;
+}
+
+.project .description p {
+    color: #333;
+}
+/********** FOOTER *********/
+.clearfooter {
+    height: 50px;
+    clear: both;
+}
+
+.footer-container {
+    border-top: 2px dotted #bebebe;
+    margin-top: 60px;
+    height: 50px;
+    position: relative;
+}
+.footer p {
+    margin-top: 20px;
+}
